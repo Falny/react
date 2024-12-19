@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window{
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.box{
+    min-width: 100px;
+    height: 60px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box-1{
+    background: #ff0000;
+}
+.box-2{
+    background: #ff7300;
+}
+.box-3{
+    background: #ffbf00;
+}
+.box-4{
+    background: #ccff00;
+}
+.box-5{
+    background: #00ff40;
+}
+.box-6{
+    background: #00ffbb;
+}
+.box-7{
+    background: #00a6ff;
+}
+.box-8{
+    background: #3700ff;
+}
+.box-9{
+    background: #ff00f2;
+}
